@@ -1,0 +1,19 @@
+id: 85aea6f4-27ee-42b4-86de-8adc386a6d8f
+timestamp: 2023-12-05T10:21:33.216Z
+source: TAP-GUI
+username: vrabbi
+accelerator:
+  name: angular-frontend
+fragments:
+  - name: tap-workload
+options:
+  lifecycle: production
+  bsGitBranch: main
+  repoVisibility: public
+  projectName: aaa
+  artifactId: angular-frontend
+  backendService: customer-profile-backend.namespace
+  useSingleSignOn: false
+  owner: cna-team
+  system: demo-apps
+  bsGitRepository: github.com?owner=vrabbi&repo=example-acc-v2-demo

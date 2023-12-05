@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: aaa
+  annotations:
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/part-of=aaa
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: vrabbi/example-acc-v2-demo
+    grafana/dashboard-selector: aaa
+    janus-idp.io/tekton: aaa
+spec:
+  type: service
+  system: demo-apps
+  lifecycle: production
+  owner: cna-team
